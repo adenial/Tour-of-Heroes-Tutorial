@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D005DFB-DD3A-451C-B1C2-78566ECA4E26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D64D2DC8-7655-4070-BF01-DBE67466D755}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TourOfHeroes", "src\TourOfHeroes\TourOfHeroes.xproj", "{2C5A2201-F4A8-44BC-82B2-F66C7745672C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C5A2201-F4A8-44BC-82B2-F66C7745672C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5A2201-F4A8-44BC-82B2-F66C7745672C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5A2201-F4A8-44BC-82B2-F66C7745672C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5A2201-F4A8-44BC-82B2-F66C7745672C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C5A2201-F4A8-44BC-82B2-F66C7745672C} = {5D005DFB-DD3A-451C-B1C2-78566ECA4E26}
+	EndGlobalSection
+EndGlobal
